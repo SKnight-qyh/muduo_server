@@ -11,8 +11,9 @@
 
 using namespace std;
 
-//基于
+//基于muduo网络库开发服务器程序
 class ChatServer
 {
-
+public:
+private:
 };
