@@ -34,7 +34,7 @@ public:
                 _server.setConnectionCallback(std::bind(&ChatServer::onConnection, this, _1));
 
                 //给服务器注册用户读写事件回调
-                _server.setMessageCallback(std::bind(ChatServer::onMessage, this, _1, _2, _3));
+                _server.setMessageCallback(std::bind(&ChatServer::onMessage, this, _1, _2, _3));
 
                 //设置线程数量
                 _server.setThreadNum(3);    //muduo库会自适应，将有1个IO线程，2个工作线程
