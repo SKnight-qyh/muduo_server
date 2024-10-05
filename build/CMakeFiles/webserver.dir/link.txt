@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -g -std=c++11 -g  -shared -Wl,-soname,libwebserver.so -o ../lib/libwebserver.so CMakeFiles/webserver.dir/InetAdress.o CMakeFiles/webserver.dir/Timestamp.o CMakeFiles/webserver.dir/logger.o 

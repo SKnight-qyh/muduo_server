@@ -1,0 +1,3 @@
+/home/snailknight/desk/workspace/webserver/build/CMakeFiles/rebuild_cache.dir
+/home/snailknight/desk/workspace/webserver/build/CMakeFiles/edit_cache.dir
+/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir

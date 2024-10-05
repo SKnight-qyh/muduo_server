@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/snailknight/desk/workspace/webserver/InetAddress.h
+netinet/in.h
+-
+string
+-
+
+/home/snailknight/desk/workspace/webserver/InetAdress.cc
+InetAddress.h
+/home/snailknight/desk/workspace/webserver/InetAddress.h
+strings.h
+-
+arpa/inet.h
+-
+iostream
+-
+string.h
+-
+

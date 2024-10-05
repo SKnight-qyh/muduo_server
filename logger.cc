@@ -4,19 +4,19 @@
 #include "logger.h"
 
 //获取唯一的实例对象
-Logger& logger::instance()
+Logger& Logger::instance()
 {
-    static logger logger;
+    static Logger logger;
     return logger;
 }
 
 //设置日志级别
-void logger::setLogLevel(int level)
+void Logger::setLogLevel(int level)
 {
     logLevel_ = level;
 }
 //写日志 [级别信息] time : msg
-void logger::log(std::string msg)
+void Logger::log(std::string msg)
 {
     switch (logLevel_)
     {
