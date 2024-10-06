@@ -1,8 +1,28 @@
 [
 {
   "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/Channel.o -c /home/snailknight/desk/workspace/webserver/Channel.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/Channel.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/EventLoop.o -c /home/snailknight/desk/workspace/webserver/EventLoop.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/EventLoop.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
   "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/InetAdress.o -c /home/snailknight/desk/workspace/webserver/InetAdress.cc",
   "file": "/home/snailknight/desk/workspace/webserver/InetAdress.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/Poller.o -c /home/snailknight/desk/workspace/webserver/Poller.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/Poller.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/TcpServer.o -c /home/snailknight/desk/workspace/webserver/TcpServer.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/TcpServer.cc"
 },
 {
   "directory": "/home/snailknight/desk/workspace/webserver/build",

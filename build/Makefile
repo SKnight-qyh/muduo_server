@@ -124,6 +124,36 @@ webserver/fast:
 .PHONY : webserver/fast
 
 # target to build an object file
+Channel.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Channel.o
+.PHONY : Channel.o
+
+# target to preprocess a source file
+Channel.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Channel.i
+.PHONY : Channel.i
+
+# target to generate assembly for a file
+Channel.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Channel.s
+.PHONY : Channel.s
+
+# target to build an object file
+EventLoop.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EventLoop.o
+.PHONY : EventLoop.o
+
+# target to preprocess a source file
+EventLoop.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EventLoop.i
+.PHONY : EventLoop.i
+
+# target to generate assembly for a file
+EventLoop.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EventLoop.s
+.PHONY : EventLoop.s
+
+# target to build an object file
 InetAdress.o:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAdress.o
 .PHONY : InetAdress.o
@@ -137,6 +167,36 @@ InetAdress.i:
 InetAdress.s:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAdress.s
 .PHONY : InetAdress.s
+
+# target to build an object file
+Poller.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Poller.o
+.PHONY : Poller.o
+
+# target to preprocess a source file
+Poller.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Poller.i
+.PHONY : Poller.i
+
+# target to generate assembly for a file
+Poller.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Poller.s
+.PHONY : Poller.s
+
+# target to build an object file
+TcpServer.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/TcpServer.o
+.PHONY : TcpServer.o
+
+# target to preprocess a source file
+TcpServer.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/TcpServer.i
+.PHONY : TcpServer.i
+
+# target to generate assembly for a file
+TcpServer.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/TcpServer.s
+.PHONY : TcpServer.s
 
 # target to build an object file
 Timestamp.o:
@@ -177,9 +237,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... webserver"
+	@echo "... Channel.o"
+	@echo "... Channel.i"
+	@echo "... Channel.s"
+	@echo "... EventLoop.o"
+	@echo "... EventLoop.i"
+	@echo "... EventLoop.s"
 	@echo "... InetAdress.o"
 	@echo "... InetAdress.i"
 	@echo "... InetAdress.s"
+	@echo "... Poller.o"
+	@echo "... Poller.i"
+	@echo "... Poller.s"
+	@echo "... TcpServer.o"
+	@echo "... TcpServer.i"
+	@echo "... TcpServer.s"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"
