@@ -14,7 +14,11 @@ CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.h
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAddress.h
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAdress.cc
 
+CMakeFiles/webserver.dir/Poller.o: ../Channel.h
 CMakeFiles/webserver.dir/Poller.o: ../Poller.cc
+CMakeFiles/webserver.dir/Poller.o: ../Poller.h
+CMakeFiles/webserver.dir/Poller.o: ../Timestamp.h
+CMakeFiles/webserver.dir/Poller.o: ../noncopyable.h
 
 CMakeFiles/webserver.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/webserver.dir/TcpServer.o: ../TcpServer.h

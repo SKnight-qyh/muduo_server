@@ -70,9 +70,35 @@ CMakeFiles/webserver.dir/Channel.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/Channel.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/snailknight/desk/workspace/webserver/Channel.cc -o CMakeFiles/webserver.dir/Channel.s
 
+CMakeFiles/webserver.dir/DefaultPoller.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/DefaultPoller.o: ../DefaultPoller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webserver.dir/DefaultPoller.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/DefaultPoller.o -c /home/snailknight/desk/workspace/webserver/DefaultPoller.cc
+
+CMakeFiles/webserver.dir/DefaultPoller.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/DefaultPoller.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/snailknight/desk/workspace/webserver/DefaultPoller.cc > CMakeFiles/webserver.dir/DefaultPoller.i
+
+CMakeFiles/webserver.dir/DefaultPoller.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/DefaultPoller.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/snailknight/desk/workspace/webserver/DefaultPoller.cc -o CMakeFiles/webserver.dir/DefaultPoller.s
+
+CMakeFiles/webserver.dir/EpollPoller.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/EpollPoller.o: ../EpollPoller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webserver.dir/EpollPoller.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/EpollPoller.o -c /home/snailknight/desk/workspace/webserver/EpollPoller.cc
+
+CMakeFiles/webserver.dir/EpollPoller.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/EpollPoller.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/snailknight/desk/workspace/webserver/EpollPoller.cc > CMakeFiles/webserver.dir/EpollPoller.i
+
+CMakeFiles/webserver.dir/EpollPoller.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/EpollPoller.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/snailknight/desk/workspace/webserver/EpollPoller.cc -o CMakeFiles/webserver.dir/EpollPoller.s
+
 CMakeFiles/webserver.dir/EventLoop.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/webserver.dir/EventLoop.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/webserver.dir/EventLoop.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/EventLoop.o -c /home/snailknight/desk/workspace/webserver/EventLoop.cc
 
 CMakeFiles/webserver.dir/EventLoop.i: cmake_force
@@ -85,7 +111,7 @@ CMakeFiles/webserver.dir/EventLoop.s: cmake_force
 
 CMakeFiles/webserver.dir/InetAdress.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAdress.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webserver.dir/InetAdress.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/webserver.dir/InetAdress.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/InetAdress.o -c /home/snailknight/desk/workspace/webserver/InetAdress.cc
 
 CMakeFiles/webserver.dir/InetAdress.i: cmake_force
@@ -98,7 +124,7 @@ CMakeFiles/webserver.dir/InetAdress.s: cmake_force
 
 CMakeFiles/webserver.dir/Poller.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/Poller.o: ../Poller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/webserver.dir/Poller.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/webserver.dir/Poller.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/Poller.o -c /home/snailknight/desk/workspace/webserver/Poller.cc
 
 CMakeFiles/webserver.dir/Poller.i: cmake_force
@@ -111,7 +137,7 @@ CMakeFiles/webserver.dir/Poller.s: cmake_force
 
 CMakeFiles/webserver.dir/TcpServer.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/TcpServer.o: ../TcpServer.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/webserver.dir/TcpServer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/webserver.dir/TcpServer.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/TcpServer.o -c /home/snailknight/desk/workspace/webserver/TcpServer.cc
 
 CMakeFiles/webserver.dir/TcpServer.i: cmake_force
@@ -124,7 +150,7 @@ CMakeFiles/webserver.dir/TcpServer.s: cmake_force
 
 CMakeFiles/webserver.dir/Timestamp.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/Timestamp.o: ../Timestamp.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/webserver.dir/Timestamp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/webserver.dir/Timestamp.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/Timestamp.o -c /home/snailknight/desk/workspace/webserver/Timestamp.cc
 
 CMakeFiles/webserver.dir/Timestamp.i: cmake_force
@@ -137,7 +163,7 @@ CMakeFiles/webserver.dir/Timestamp.s: cmake_force
 
 CMakeFiles/webserver.dir/logger.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/logger.o: ../logger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/webserver.dir/logger.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/webserver.dir/logger.o"
 	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/logger.o -c /home/snailknight/desk/workspace/webserver/logger.cc
 
 CMakeFiles/webserver.dir/logger.i: cmake_force
@@ -151,6 +177,8 @@ CMakeFiles/webserver.dir/logger.s: cmake_force
 # Object files for target webserver
 webserver_OBJECTS = \
 "CMakeFiles/webserver.dir/Channel.o" \
+"CMakeFiles/webserver.dir/DefaultPoller.o" \
+"CMakeFiles/webserver.dir/EpollPoller.o" \
 "CMakeFiles/webserver.dir/EventLoop.o" \
 "CMakeFiles/webserver.dir/InetAdress.o" \
 "CMakeFiles/webserver.dir/Poller.o" \
@@ -162,6 +190,8 @@ webserver_OBJECTS = \
 webserver_EXTERNAL_OBJECTS =
 
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/Channel.o
+../lib/libwebserver.so: CMakeFiles/webserver.dir/DefaultPoller.o
+../lib/libwebserver.so: CMakeFiles/webserver.dir/EpollPoller.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/EventLoop.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/InetAdress.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/Poller.o
@@ -170,7 +200,7 @@ webserver_EXTERNAL_OBJECTS =
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/logger.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/build.make
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../lib/libwebserver.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX shared library ../lib/libwebserver.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webserver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

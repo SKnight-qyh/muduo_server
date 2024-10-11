@@ -15,7 +15,11 @@ CMakeFiles/webserver.dir/InetAdress.o
  /home/snailknight/desk/workspace/webserver/InetAddress.h
  /home/snailknight/desk/workspace/webserver/InetAdress.cc
 CMakeFiles/webserver.dir/Poller.o
+ /home/snailknight/desk/workspace/webserver/Channel.h
  /home/snailknight/desk/workspace/webserver/Poller.cc
+ /home/snailknight/desk/workspace/webserver/Poller.h
+ /home/snailknight/desk/workspace/webserver/Timestamp.h
+ /home/snailknight/desk/workspace/webserver/noncopyable.h
 CMakeFiles/webserver.dir/TcpServer.o
  /home/snailknight/desk/workspace/webserver/TcpServer.cc
  /home/snailknight/desk/workspace/webserver/TcpServer.h

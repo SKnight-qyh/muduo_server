@@ -6,6 +6,16 @@
 },
 {
   "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/DefaultPoller.o -c /home/snailknight/desk/workspace/webserver/DefaultPoller.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/DefaultPoller.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/EpollPoller.o -c /home/snailknight/desk/workspace/webserver/EpollPoller.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/EpollPoller.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
   "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/EventLoop.o -c /home/snailknight/desk/workspace/webserver/EventLoop.cc",
   "file": "/home/snailknight/desk/workspace/webserver/EventLoop.cc"
 },

@@ -139,6 +139,36 @@ Channel.s:
 .PHONY : Channel.s
 
 # target to build an object file
+DefaultPoller.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/DefaultPoller.o
+.PHONY : DefaultPoller.o
+
+# target to preprocess a source file
+DefaultPoller.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/DefaultPoller.i
+.PHONY : DefaultPoller.i
+
+# target to generate assembly for a file
+DefaultPoller.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/DefaultPoller.s
+.PHONY : DefaultPoller.s
+
+# target to build an object file
+EpollPoller.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EpollPoller.o
+.PHONY : EpollPoller.o
+
+# target to preprocess a source file
+EpollPoller.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EpollPoller.i
+.PHONY : EpollPoller.i
+
+# target to generate assembly for a file
+EpollPoller.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EpollPoller.s
+.PHONY : EpollPoller.s
+
+# target to build an object file
 EventLoop.o:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EventLoop.o
 .PHONY : EventLoop.o
@@ -240,6 +270,12 @@ help:
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
+	@echo "... DefaultPoller.o"
+	@echo "... DefaultPoller.i"
+	@echo "... DefaultPoller.s"
+	@echo "... EpollPoller.o"
+	@echo "... EpollPoller.i"
+	@echo "... EpollPoller.s"
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
