@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/yuqiao/Desktop/d/muduo_server/build"
+			"value" : "/home/snailknight/desk/workspace/webserver/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -607,7 +607,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/yuqiao/Desktop/d/muduo_server"
+			"value" : "/home/snailknight/desk/workspace/webserver"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1167,7 +1167,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/yuqiao/Desktop/d/muduo_server/build"
+			"value" : "/home/snailknight/desk/workspace/webserver/build"
 		},
 		{
 			"name" : "webserver_SOURCE_DIR",
@@ -1179,7 +1179,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/yuqiao/Desktop/d/muduo_server"
+			"value" : "/home/snailknight/desk/workspace/webserver"
 		}
 	],
 	"kind" : "cache",

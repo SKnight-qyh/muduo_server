@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "webserver::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-webserver-Debug-76917d571b68bdb70f5a.json",
+					"jsonFile" : "target-webserver-Debug-32a9f5969999a34a32e2.json",
 					"name" : "webserver",
 					"projectIndex" : 0
 				}
@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/yuqiao/Desktop/d/muduo_server/build",
-		"source" : "/home/yuqiao/Desktop/d/muduo_server"
+		"build" : "/home/snailknight/desk/workspace/webserver/build",
+		"source" : "/home/snailknight/desk/workspace/webserver"
 	},
 	"version" : 
 	{

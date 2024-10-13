@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/yuqiao/Desktop/d/muduo_server/lib/libwebserver.so"
+			"path" : "/home/snailknight/desk/workspace/webserver/lib/libwebserver.so"
 		}
 	],
 	"backtrace" : 1,
