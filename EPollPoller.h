@@ -24,7 +24,7 @@ public:
     // epoll_wait
     Timestamp Poll(int timeoutMs, ChannelList* activeChannels) override;
     // epoll_ctl
-    void updateChannel(Channel* channel) override;  /
+    void updateChannel(Channel* channel) override;  
     void removeChannel(Channel* channel) override;
 
 private:

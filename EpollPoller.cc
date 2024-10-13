@@ -19,3 +19,17 @@ EPollPoller::EPollPoller(EventLoop* loop)
         LOG_FATAL("epoll_create error : %d \n", errno);
     }
 }
+
+Timestamp EPollPoller::Poll(int timeoutMs, ChannelList* activeChannels)
+{
+}
+    // epoll_ctl
+void EPollPoller::updateChannel(Channel* channel)
+{
+
+}
+    
+void EPollPoller::removeChannel(Channel* channel)
+{
+
+}

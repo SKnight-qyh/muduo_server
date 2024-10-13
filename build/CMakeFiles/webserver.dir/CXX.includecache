@@ -6,37 +6,55 @@
 
 #IncludeRegexTransform: 
 
-/home/snailknight/desk/workspace/webserver/Channel.h
-noncopyable.h
-/home/snailknight/desk/workspace/webserver/noncopyable.h
-Timestamp.h
-/home/snailknight/desk/workspace/webserver/Timestamp.h
-memory
--
-functional
--
-
-/home/snailknight/desk/workspace/webserver/Poller.cc
+/home/yuqiao/Desktop/d/muduo_server/DefaultPoller.cc
 Poller.h
-/home/snailknight/desk/workspace/webserver/Poller.h
-Channel.h
-/home/snailknight/desk/workspace/webserver/Channel.h
+/home/yuqiao/Desktop/d/muduo_server/Poller.h
+EPollPoller.h
+/home/yuqiao/Desktop/d/muduo_server/EPollPoller.h
+stdlib.h
+-
 
-/home/snailknight/desk/workspace/webserver/Poller.h
+/home/yuqiao/Desktop/d/muduo_server/EPollPoller.h
+Poller.h
+/home/yuqiao/Desktop/d/muduo_server/Poller.h
+Timestamp.h
+/home/yuqiao/Desktop/d/muduo_server/Timestamp.h
+vector
+-
+sys/epoll.h
+-
+
+/home/yuqiao/Desktop/d/muduo_server/EpollPoller.cc
+EPollPoller.h
+/home/yuqiao/Desktop/d/muduo_server/EPollPoller.h
+logger.h
+/home/yuqiao/Desktop/d/muduo_server/logger.h
+sys/epoll.h
+-
+errno.h
+-
+
+/home/yuqiao/Desktop/d/muduo_server/Poller.h
 vector
 -
 unordered_map
 -
 noncopyable.h
-/home/snailknight/desk/workspace/webserver/noncopyable.h
+/home/yuqiao/Desktop/d/muduo_server/noncopyable.h
 Timestamp.h
-/home/snailknight/desk/workspace/webserver/Timestamp.h
+/home/yuqiao/Desktop/d/muduo_server/Timestamp.h
 
-/home/snailknight/desk/workspace/webserver/Timestamp.h
+/home/yuqiao/Desktop/d/muduo_server/Timestamp.h
 iostream
 -
 string
 -
 
-/home/snailknight/desk/workspace/webserver/noncopyable.h
+/home/yuqiao/Desktop/d/muduo_server/logger.h
+string
+-
+noncopyable.h
+/home/yuqiao/Desktop/d/muduo_server/noncopyable.h
+
+/home/yuqiao/Desktop/d/muduo_server/noncopyable.h
 
