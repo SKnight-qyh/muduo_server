@@ -6,7 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/snailknight/desk/workspace/webserver/Channel.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/Channel.o"
   "/home/snailknight/desk/workspace/webserver/DefaultPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/DefaultPoller.o"
-  "/home/snailknight/desk/workspace/webserver/EpollPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EpollPoller.o"
+  "/home/snailknight/desk/workspace/webserver/EPollPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EPollPoller.o"
   "/home/snailknight/desk/workspace/webserver/EventLoop.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EventLoop.o"
   "/home/snailknight/desk/workspace/webserver/InetAdress.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/InetAdress.o"
   "/home/snailknight/desk/workspace/webserver/Poller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/Poller.o"

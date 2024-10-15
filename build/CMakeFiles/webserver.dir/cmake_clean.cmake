@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "../lib/libwebserver.so"
   "CMakeFiles/webserver.dir/Channel.o"
   "CMakeFiles/webserver.dir/DefaultPoller.o"
-  "CMakeFiles/webserver.dir/EpollPoller.o"
+  "CMakeFiles/webserver.dir/EPollPoller.o"
   "CMakeFiles/webserver.dir/EventLoop.o"
   "CMakeFiles/webserver.dir/InetAdress.o"
   "CMakeFiles/webserver.dir/Poller.o"

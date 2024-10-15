@@ -11,8 +11,8 @@
 },
 {
   "directory": "/home/snailknight/desk/workspace/webserver/build",
-  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/EpollPoller.o -c /home/snailknight/desk/workspace/webserver/EpollPoller.cc",
-  "file": "/home/snailknight/desk/workspace/webserver/EpollPoller.cc"
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/EPollPoller.o -c /home/snailknight/desk/workspace/webserver/EPollPoller.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/EPollPoller.cc"
 },
 {
   "directory": "/home/snailknight/desk/workspace/webserver/build",

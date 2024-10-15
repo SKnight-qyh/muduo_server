@@ -14,12 +14,13 @@ CMakeFiles/webserver.dir/DefaultPoller.o: ../Poller.h
 CMakeFiles/webserver.dir/DefaultPoller.o: ../Timestamp.h
 CMakeFiles/webserver.dir/DefaultPoller.o: ../noncopyable.h
 
-CMakeFiles/webserver.dir/EpollPoller.o: ../EPollPoller.h
-CMakeFiles/webserver.dir/EpollPoller.o: ../EpollPoller.cc
-CMakeFiles/webserver.dir/EpollPoller.o: ../Poller.h
-CMakeFiles/webserver.dir/EpollPoller.o: ../Timestamp.h
-CMakeFiles/webserver.dir/EpollPoller.o: ../logger.h
-CMakeFiles/webserver.dir/EpollPoller.o: ../noncopyable.h
+CMakeFiles/webserver.dir/EPollPoller.o: ../Channel.h
+CMakeFiles/webserver.dir/EPollPoller.o: ../EPollPoller.cc
+CMakeFiles/webserver.dir/EPollPoller.o: ../EPollPoller.h
+CMakeFiles/webserver.dir/EPollPoller.o: ../Poller.h
+CMakeFiles/webserver.dir/EPollPoller.o: ../Timestamp.h
+CMakeFiles/webserver.dir/EPollPoller.o: ../logger.h
+CMakeFiles/webserver.dir/EPollPoller.o: ../noncopyable.h
 
 CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.cc
 CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.h

@@ -83,18 +83,18 @@ CMakeFiles/webserver.dir/DefaultPoller.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/DefaultPoller.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/snailknight/desk/workspace/webserver/DefaultPoller.cc -o CMakeFiles/webserver.dir/DefaultPoller.s
 
-CMakeFiles/webserver.dir/EpollPoller.o: CMakeFiles/webserver.dir/flags.make
-CMakeFiles/webserver.dir/EpollPoller.o: ../EpollPoller.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webserver.dir/EpollPoller.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/EpollPoller.o -c /home/snailknight/desk/workspace/webserver/EpollPoller.cc
+CMakeFiles/webserver.dir/EPollPoller.o: CMakeFiles/webserver.dir/flags.make
+CMakeFiles/webserver.dir/EPollPoller.o: ../EPollPoller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/snailknight/desk/workspace/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/webserver.dir/EPollPoller.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/webserver.dir/EPollPoller.o -c /home/snailknight/desk/workspace/webserver/EPollPoller.cc
 
-CMakeFiles/webserver.dir/EpollPoller.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/EpollPoller.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/snailknight/desk/workspace/webserver/EpollPoller.cc > CMakeFiles/webserver.dir/EpollPoller.i
+CMakeFiles/webserver.dir/EPollPoller.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webserver.dir/EPollPoller.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/snailknight/desk/workspace/webserver/EPollPoller.cc > CMakeFiles/webserver.dir/EPollPoller.i
 
-CMakeFiles/webserver.dir/EpollPoller.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/EpollPoller.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/snailknight/desk/workspace/webserver/EpollPoller.cc -o CMakeFiles/webserver.dir/EpollPoller.s
+CMakeFiles/webserver.dir/EPollPoller.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webserver.dir/EPollPoller.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/snailknight/desk/workspace/webserver/EPollPoller.cc -o CMakeFiles/webserver.dir/EPollPoller.s
 
 CMakeFiles/webserver.dir/EventLoop.o: CMakeFiles/webserver.dir/flags.make
 CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.cc
@@ -178,7 +178,7 @@ CMakeFiles/webserver.dir/logger.s: cmake_force
 webserver_OBJECTS = \
 "CMakeFiles/webserver.dir/Channel.o" \
 "CMakeFiles/webserver.dir/DefaultPoller.o" \
-"CMakeFiles/webserver.dir/EpollPoller.o" \
+"CMakeFiles/webserver.dir/EPollPoller.o" \
 "CMakeFiles/webserver.dir/EventLoop.o" \
 "CMakeFiles/webserver.dir/InetAdress.o" \
 "CMakeFiles/webserver.dir/Poller.o" \
@@ -191,7 +191,7 @@ webserver_EXTERNAL_OBJECTS =
 
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/Channel.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/DefaultPoller.o
-../lib/libwebserver.so: CMakeFiles/webserver.dir/EpollPoller.o
+../lib/libwebserver.so: CMakeFiles/webserver.dir/EPollPoller.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/EventLoop.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/InetAdress.o
 ../lib/libwebserver.so: CMakeFiles/webserver.dir/Poller.o

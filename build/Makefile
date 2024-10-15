@@ -154,19 +154,19 @@ DefaultPoller.s:
 .PHONY : DefaultPoller.s
 
 # target to build an object file
-EpollPoller.o:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EpollPoller.o
-.PHONY : EpollPoller.o
+EPollPoller.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EPollPoller.o
+.PHONY : EPollPoller.o
 
 # target to preprocess a source file
-EpollPoller.i:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EpollPoller.i
-.PHONY : EpollPoller.i
+EPollPoller.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EPollPoller.i
+.PHONY : EPollPoller.i
 
 # target to generate assembly for a file
-EpollPoller.s:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EpollPoller.s
-.PHONY : EpollPoller.s
+EPollPoller.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/EPollPoller.s
+.PHONY : EPollPoller.s
 
 # target to build an object file
 EventLoop.o:
@@ -273,9 +273,9 @@ help:
 	@echo "... DefaultPoller.o"
 	@echo "... DefaultPoller.i"
 	@echo "... DefaultPoller.s"
-	@echo "... EpollPoller.o"
-	@echo "... EpollPoller.i"
-	@echo "... EpollPoller.s"
+	@echo "... EPollPoller.o"
+	@echo "... EPollPoller.i"
+	@echo "... EPollPoller.s"
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"

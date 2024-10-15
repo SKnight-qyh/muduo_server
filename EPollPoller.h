@@ -14,7 +14,7 @@ class Channel;
  * epoll_wait
  * 
  */
-class EPollPoller : Poller
+class EPollPoller : public Poller
 {
 public:
     // epoll_create with epollfd_
@@ -22,8 +22,11 @@ public:
 
     ~EPollPoller() override;    //用编译器检查基类中是否有对应的虚函数
     // epoll_wait
-    Timestamp Poll(int timeoutMs, ChannelList* activeChannels) override;
+    Timestamp poll(int timeoutMs, ChannelList* activeChannels) override;
     // epoll_ctl
+
+    // channel 的update/remove方法 =》EventLoop中调用 update/removeChannel
+    // =》Poller中调用 updateChannel/removeChannel
     void updateChannel(Channel* channel) override;  
     void removeChannel(Channel* channel) override;
 

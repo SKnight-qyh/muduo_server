@@ -15,9 +15,9 @@ public:
     //指针变量，不用前置声明class EventLoop
     using ChannelList = std::vector<Channel*>;
     Poller(EventLoop* loop);
-    virtual ~Poller();
+    virtual ~Poller() = 0;
 
-    virtual Timestamp Poll(int timeoutMs, Channel* activeChannels) = 0;
+    virtual Timestamp poll(int timeoutMs, ChannelList* activeChannels) = 0;
 
     virtual void updateChannel(Channel* channel) = 0;
 

@@ -14,9 +14,10 @@ CMakeFiles/webserver.dir/DefaultPoller.o
  /home/snailknight/desk/workspace/webserver/Poller.h
  /home/snailknight/desk/workspace/webserver/Timestamp.h
  /home/snailknight/desk/workspace/webserver/noncopyable.h
-CMakeFiles/webserver.dir/EpollPoller.o
+CMakeFiles/webserver.dir/EPollPoller.o
+ /home/snailknight/desk/workspace/webserver/Channel.h
+ /home/snailknight/desk/workspace/webserver/EPollPoller.cc
  /home/snailknight/desk/workspace/webserver/EPollPoller.h
- /home/snailknight/desk/workspace/webserver/EpollPoller.cc
  /home/snailknight/desk/workspace/webserver/Poller.h
  /home/snailknight/desk/workspace/webserver/Timestamp.h
  /home/snailknight/desk/workspace/webserver/logger.h
