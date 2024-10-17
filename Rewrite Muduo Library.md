@@ -1,7 +1,5 @@
 # Rewrite Muduo Library
 
-
-
 ```mermaid
 sequenceDiagram
 	title Reactor Model
@@ -23,10 +21,13 @@ sequenceDiagram
 
 ```
 
-
 ## EventLoop
 
 ***one loop per thread, one EventLoop includes a Poller and a ChannelList***
+
+wakeupFd_：通过系统调用 eventfd() 实现，当 mainLoop 获取一个新用户的 channel，通过轮询算法选择一个 subLoop，通过该成员唤醒 subLoop
+
+每一个 subReactor 监听一个 wakeupChannel，mainReactor 通过向 wakeChannel 写消息，某一个 subReactor 就会被唤醒，就会得到新用户连接的 Channel，
 
 ### Channel
 

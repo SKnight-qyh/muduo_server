@@ -3,10 +3,14 @@
 
 CMakeFiles/webserver.dir/Channel.o: ../Channel.cc
 CMakeFiles/webserver.dir/Channel.o: ../Channel.h
+CMakeFiles/webserver.dir/Channel.o: ../CurrentThread.h
 CMakeFiles/webserver.dir/Channel.o: ../EventLoop.h
 CMakeFiles/webserver.dir/Channel.o: ../Timestamp.h
 CMakeFiles/webserver.dir/Channel.o: ../logger.h
 CMakeFiles/webserver.dir/Channel.o: ../noncopyable.h
+
+CMakeFiles/webserver.dir/CurrentThread.o: ../CurrentThread.cc
+CMakeFiles/webserver.dir/CurrentThread.o: ../CurrentThread.h
 
 CMakeFiles/webserver.dir/DefaultPoller.o: ../DefaultPoller.cc
 CMakeFiles/webserver.dir/DefaultPoller.o: ../EPollPoller.h
@@ -22,8 +26,15 @@ CMakeFiles/webserver.dir/EPollPoller.o: ../Timestamp.h
 CMakeFiles/webserver.dir/EPollPoller.o: ../logger.h
 CMakeFiles/webserver.dir/EPollPoller.o: ../noncopyable.h
 
+CMakeFiles/webserver.dir/EventLoop.o: ../Channel.h
+CMakeFiles/webserver.dir/EventLoop.o: ../CurrentThread.h
+CMakeFiles/webserver.dir/EventLoop.o: ../EPollPoller.h
 CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.cc
 CMakeFiles/webserver.dir/EventLoop.o: ../EventLoop.h
+CMakeFiles/webserver.dir/EventLoop.o: ../Poller.h
+CMakeFiles/webserver.dir/EventLoop.o: ../Timestamp.h
+CMakeFiles/webserver.dir/EventLoop.o: ../logger.h
+CMakeFiles/webserver.dir/EventLoop.o: ../noncopyable.h
 
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAddress.h
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAdress.cc

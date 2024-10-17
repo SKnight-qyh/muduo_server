@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "../lib/libwebserver.pdb"
   "../lib/libwebserver.so"
   "CMakeFiles/webserver.dir/Channel.o"
+  "CMakeFiles/webserver.dir/CurrentThread.o"
   "CMakeFiles/webserver.dir/DefaultPoller.o"
   "CMakeFiles/webserver.dir/EPollPoller.o"
   "CMakeFiles/webserver.dir/EventLoop.o"

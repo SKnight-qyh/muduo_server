@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/snailknight/desk/workspace/webserver/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/CurrentThread.o -c /home/snailknight/desk/workspace/webserver/CurrentThread.cc",
+  "file": "/home/snailknight/desk/workspace/webserver/CurrentThread.cc"
+},
+{
+  "directory": "/home/snailknight/desk/workspace/webserver/build",
   "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/DefaultPoller.o -c /home/snailknight/desk/workspace/webserver/DefaultPoller.cc",
   "file": "/home/snailknight/desk/workspace/webserver/DefaultPoller.cc"
 },

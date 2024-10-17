@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/snailknight/desk/workspace/webserver/Channel.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/Channel.o"
+  "/home/snailknight/desk/workspace/webserver/CurrentThread.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/CurrentThread.o"
   "/home/snailknight/desk/workspace/webserver/DefaultPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/DefaultPoller.o"
   "/home/snailknight/desk/workspace/webserver/EPollPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EPollPoller.o"
   "/home/snailknight/desk/workspace/webserver/EventLoop.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EventLoop.o"
