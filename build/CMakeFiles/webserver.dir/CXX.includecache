@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/snailknight/desk/workspace/webserver/Channel.cc
-Channel.h
-/home/snailknight/desk/workspace/webserver/Channel.h
-EventLoop.h
-/home/snailknight/desk/workspace/webserver/EventLoop.h
-logger.h
-/home/snailknight/desk/workspace/webserver/logger.h
-sys/epoll.h
--
-
 /home/snailknight/desk/workspace/webserver/Channel.h
 noncopyable.h
 /home/snailknight/desk/workspace/webserver/noncopyable.h
@@ -26,38 +16,10 @@ memory
 functional
 -
 
-/home/snailknight/desk/workspace/webserver/CurrentThread.cc
-CurrentThread.h
-/home/snailknight/desk/workspace/webserver/CurrentThread.h
-
 /home/snailknight/desk/workspace/webserver/CurrentThread.h
 unistd.h
 -
 sys/syscall.h
--
-
-/home/snailknight/desk/workspace/webserver/DefaultPoller.cc
-Poller.h
-/home/snailknight/desk/workspace/webserver/Poller.h
-EPollPoller.h
-/home/snailknight/desk/workspace/webserver/EPollPoller.h
-stdlib.h
--
-
-/home/snailknight/desk/workspace/webserver/EPollPoller.cc
-EPollPoller.h
-/home/snailknight/desk/workspace/webserver/EPollPoller.h
-logger.h
-/home/snailknight/desk/workspace/webserver/logger.h
-Channel.h
-/home/snailknight/desk/workspace/webserver/Channel.h
-sys/epoll.h
--
-errno.h
--
-strings.h
--
-unistd.h
 -
 
 /home/snailknight/desk/workspace/webserver/EPollPoller.h
@@ -109,12 +71,6 @@ atomic
 -
 functional
 -
-
-/home/snailknight/desk/workspace/webserver/Poller.cc
-Poller.h
-/home/snailknight/desk/workspace/webserver/Poller.h
-Channel.h
-/home/snailknight/desk/workspace/webserver/Channel.h
 
 /home/snailknight/desk/workspace/webserver/Poller.h
 vector

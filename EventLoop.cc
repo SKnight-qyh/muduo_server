@@ -22,6 +22,7 @@ int creatEventfd()
     {
         LOG_FATAL("eventfd error:%d\n", errno);
     }
+    return evtfd;
 }
 EventLoop::EventLoop()
     : looping_(false)
@@ -61,7 +62,7 @@ void EventLoop::handleRead()
     ssize_t n = read(wakeupFd_, &one, sizeof one);
     if(n != sizeof one)
     {
-        LOG_ERROR("EventLoop::handleRead() reads  %d bytes instead of 8\n", n);
+        LOG_ERROR("EventLoop::handleRead() reads  %ld bytes instead of 8\n", n);
     }
 }
 void EventLoop::loop()
@@ -118,7 +119,7 @@ void EventLoop::queueInLoop(Functor cb)
     // 多个loop 调用runInLoop，涉及并发访问，需要引用锁
     {
     std::unique_lock<std::mutex> lock(mutex_);
-    pendihgFunctors_.emplace_back(cb);
+    pendingFunctors_.emplace_back(cb);
     }
     // 在非当前loop线程中调用，就需要唤醒loop线程，执行cb
     // 或者当前loop正在执行回调，当loop又有了新的回调，执行完回调后，会被阻塞在poll，需要被重新唤醒
@@ -134,7 +135,7 @@ void EventLoop::wakeup()
     ssize_t n = write(wakeupFd_, &one, sizeof one);
     if(n != sizeof one)
     {
-        LOG_ERROR("EventLoop::wakeup() writes %d bytes instead of 8\n", n); 
+        LOG_ERROR("EventLoop::wakeup() writes %ld bytes instead of 8\n", n); 
 
     }
 }
@@ -150,7 +151,7 @@ void EventLoop::removeChannel(Channel* channel)
     poller_->removeChannel(channel);
 }
 
-void EventLoop::hasChannel(channel)
+void EventLoop::hasChannel(Channel* channel)
 {
     poller_->hasChannel(channel);
 }

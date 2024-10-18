@@ -34,7 +34,7 @@ public:
     void hasChannel(Channel* channel);
    
    
-    bool isInLoopThread() const { return threadID_ == CurrentThread::tid(); }
+    bool isInLoopThread() const { return threadId_ == CurrentThread::tid(); }
 
     // static EventLoop* getEventLoopOgCurrentThread();
 
