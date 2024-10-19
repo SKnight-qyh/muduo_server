@@ -4,16 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/snailknight/desk/workspace/webserver/Channel.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/Channel.o"
-  "/home/snailknight/desk/workspace/webserver/CurrentThread.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/CurrentThread.o"
-  "/home/snailknight/desk/workspace/webserver/DefaultPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/DefaultPoller.o"
-  "/home/snailknight/desk/workspace/webserver/EPollPoller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EPollPoller.o"
-  "/home/snailknight/desk/workspace/webserver/EventLoop.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/EventLoop.o"
-  "/home/snailknight/desk/workspace/webserver/InetAdress.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/InetAdress.o"
-  "/home/snailknight/desk/workspace/webserver/Poller.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/Poller.o"
-  "/home/snailknight/desk/workspace/webserver/TcpServer.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/TcpServer.o"
-  "/home/snailknight/desk/workspace/webserver/Timestamp.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/Timestamp.o"
-  "/home/snailknight/desk/workspace/webserver/logger.cc" "/home/snailknight/desk/workspace/webserver/build/CMakeFiles/webserver.dir/logger.o"
+  "/home/yuqiao/Desktop/d/muduo_server/Channel.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/Channel.o"
+  "/home/yuqiao/Desktop/d/muduo_server/CurrentThread.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/CurrentThread.o"
+  "/home/yuqiao/Desktop/d/muduo_server/DefaultPoller.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/DefaultPoller.o"
+  "/home/yuqiao/Desktop/d/muduo_server/EPollPoller.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/EPollPoller.o"
+  "/home/yuqiao/Desktop/d/muduo_server/EventLoop.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/EventLoop.o"
+  "/home/yuqiao/Desktop/d/muduo_server/EventLoopThread.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/EventLoopThread.o"
+  "/home/yuqiao/Desktop/d/muduo_server/EventLoopThreadPool.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/EventLoopThreadPool.o"
+  "/home/yuqiao/Desktop/d/muduo_server/InetAdress.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/InetAdress.o"
+  "/home/yuqiao/Desktop/d/muduo_server/Poller.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/Poller.o"
+  "/home/yuqiao/Desktop/d/muduo_server/TcpServer.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/TcpServer.o"
+  "/home/yuqiao/Desktop/d/muduo_server/Thread.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/Thread.o"
+  "/home/yuqiao/Desktop/d/muduo_server/Timestamp.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/Timestamp.o"
+  "/home/yuqiao/Desktop/d/muduo_server/logger.cc" "/home/yuqiao/Desktop/d/muduo_server/build/CMakeFiles/webserver.dir/logger.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

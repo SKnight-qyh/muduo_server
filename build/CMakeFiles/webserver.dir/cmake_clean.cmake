@@ -6,9 +6,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/webserver.dir/DefaultPoller.o"
   "CMakeFiles/webserver.dir/EPollPoller.o"
   "CMakeFiles/webserver.dir/EventLoop.o"
+  "CMakeFiles/webserver.dir/EventLoopThread.o"
+  "CMakeFiles/webserver.dir/EventLoopThreadPool.o"
   "CMakeFiles/webserver.dir/InetAdress.o"
   "CMakeFiles/webserver.dir/Poller.o"
   "CMakeFiles/webserver.dir/TcpServer.o"
+  "CMakeFiles/webserver.dir/Thread.o"
   "CMakeFiles/webserver.dir/Timestamp.o"
   "CMakeFiles/webserver.dir/logger.o"
 )

@@ -683,8 +683,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/snailknight/desk/workspace/webserver/build",
-		"source" : "/home/snailknight/desk/workspace/webserver"
+		"build" : "/home/yuqiao/Desktop/d/muduo_server/build",
+		"source" : "/home/yuqiao/Desktop/d/muduo_server"
 	},
 	"version" : 
 	{

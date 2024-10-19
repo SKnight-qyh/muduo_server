@@ -39,10 +39,10 @@ uint16_t Inetaddress::toPort() const
     return ntohs(addr_.sin_port);
 }
 
-int main(){
-    Inetaddress addr(8080);
-    std::cout << addr.toIp() << std::endl;
-    std::cout << addr.toIpPort() << std::endl;
-    std::cout << addr.toPort() << std::endl;
-    return 0;
-}
+// int main(){
+//     Inetaddress addr(8080);
+//     std::cout << addr.toIp() << std::endl;
+//     std::cout << addr.toIpPort() << std::endl;
+//     std::cout << addr.toPort() << std::endl;
+//     return 0;
+// }

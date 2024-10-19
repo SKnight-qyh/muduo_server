@@ -36,6 +36,23 @@ CMakeFiles/webserver.dir/EventLoop.o: ../Timestamp.h
 CMakeFiles/webserver.dir/EventLoop.o: ../logger.h
 CMakeFiles/webserver.dir/EventLoop.o: ../noncopyable.h
 
+CMakeFiles/webserver.dir/EventLoopThread.o: ../CurrentThread.h
+CMakeFiles/webserver.dir/EventLoopThread.o: ../EventLoop.h
+CMakeFiles/webserver.dir/EventLoopThread.o: ../EventLoopThread.cc
+CMakeFiles/webserver.dir/EventLoopThread.o: ../EventLoopThread.h
+CMakeFiles/webserver.dir/EventLoopThread.o: ../Thread.h
+CMakeFiles/webserver.dir/EventLoopThread.o: ../Timestamp.h
+CMakeFiles/webserver.dir/EventLoopThread.o: ../noncopyable.h
+
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../CurrentThread.h
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../EventLoop.h
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../EventLoopThread.h
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../EventLoopThreadPool.cc
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../EventLoopThreadPool.h
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../Thread.h
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../Timestamp.h
+CMakeFiles/webserver.dir/EventLoopThreadPool.o: ../noncopyable.h
+
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAddress.h
 CMakeFiles/webserver.dir/InetAdress.o: ../InetAdress.cc
 
@@ -47,6 +64,11 @@ CMakeFiles/webserver.dir/Poller.o: ../noncopyable.h
 
 CMakeFiles/webserver.dir/TcpServer.o: ../TcpServer.cc
 CMakeFiles/webserver.dir/TcpServer.o: ../TcpServer.h
+
+CMakeFiles/webserver.dir/Thread.o: ../CurrentThread.h
+CMakeFiles/webserver.dir/Thread.o: ../Thread.cc
+CMakeFiles/webserver.dir/Thread.o: ../Thread.h
+CMakeFiles/webserver.dir/Thread.o: ../noncopyable.h
 
 CMakeFiles/webserver.dir/Timestamp.o: ../Timestamp.cc
 CMakeFiles/webserver.dir/Timestamp.o: ../Timestamp.h

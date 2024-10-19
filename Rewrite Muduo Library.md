@@ -7,7 +7,7 @@ sequenceDiagram
     participant Reactor
     participant Demultiplex
     participant EventHandler
-    Event ->> Reactor: 注册 Event && Handler
+    Event ->> Reactor: 注册 Event & Handler
     loop 事件集合
     	Reactor ->> Reactor: Event 集合
     end
@@ -25,15 +25,15 @@ sequenceDiagram
 
 ***one loop per thread, one EventLoop includes a Poller and a ChannelList***
 
-wakeupFd_：通过系统调用 eventfd() 实现，当 mainLoop 获取一个新用户的 channel，通过轮询算法选择一个 subLoop，通过该成员唤醒 subLoop
-
-每一个 subReactor 监听一个 wakeupChannel，mainReactor 通过向 wakeChannel 写消息，某一个 subReactor 就会被唤醒，就会得到新用户连接的 Channel，
-
 ### Channel
+
+channel update/remove ==> EventLoop updateChannel/removeChannel ==> Poller updateChannel/removeChannel
 
 ### Poller
 
 抽象类，不能实例化，不能拷贝构造
+
+ChannelMap <fd, channel*>
 
 #### 为什么要单独建立DefaultPoller.cc来专门实现Poller类的Poller方法
 
