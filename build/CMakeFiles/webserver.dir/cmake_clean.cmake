@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "../lib/libwebserver.pdb"
   "../lib/libwebserver.so"
+  "CMakeFiles/webserver.dir/Acceptor.o"
   "CMakeFiles/webserver.dir/Channel.o"
   "CMakeFiles/webserver.dir/CurrentThread.o"
   "CMakeFiles/webserver.dir/DefaultPoller.o"
@@ -8,8 +9,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/webserver.dir/EventLoop.o"
   "CMakeFiles/webserver.dir/EventLoopThread.o"
   "CMakeFiles/webserver.dir/EventLoopThreadPool.o"
-  "CMakeFiles/webserver.dir/InetAdress.o"
+  "CMakeFiles/webserver.dir/InetAddress.o"
   "CMakeFiles/webserver.dir/Poller.o"
+  "CMakeFiles/webserver.dir/Socket.o"
   "CMakeFiles/webserver.dir/TcpServer.o"
   "CMakeFiles/webserver.dir/Thread.o"
   "CMakeFiles/webserver.dir/Timestamp.o"

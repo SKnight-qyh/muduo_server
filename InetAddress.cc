@@ -5,7 +5,7 @@
 #include <arpa/inet.h>
 #include <iostream>
 #include <string.h>
-Inetaddress::Inetaddress(uint16_t port, std::string ip)
+InetAddress::InetAddress(uint16_t port, std::string ip)
 {
     bzero(&addr_, sizeof(addr_));
     addr_.sin_family = AF_INET;
@@ -15,7 +15,7 @@ Inetaddress::Inetaddress(uint16_t port, std::string ip)
 
 }
 
-std::string Inetaddress::toIp() const
+std::string InetAddress::toIp() const
 {
 
     char buf[64] = {0};
@@ -23,7 +23,7 @@ std::string Inetaddress::toIp() const
     return buf;
 
 }
-std::string Inetaddress::toIpPort() const
+std::string InetAddress::toIpPort() const
 {
     // ip:port
     char buf[64] = {0};
@@ -33,7 +33,7 @@ std::string Inetaddress::toIpPort() const
     sprintf(buf + end, ":%u", port);
     return buf;
 }
-uint16_t Inetaddress::toPort() const
+uint16_t InetAddress::toPort() const
 {
 
     return ntohs(addr_.sin_port);

@@ -32,7 +32,7 @@ void Socket::listen()
 int Socket::accept(InetAddress* peeraddr)
 {
     sockaddr_in addr;
-    bzero(addr, sizeof(addr));
+    bzero(&addr, sizeof(addr));
     socklen_t addrlen = sizeof(addr);
     int connfd = ::accept(sockfd_, (sockaddr*)&addr, &addrlen);
     if(connfd >= 0)
@@ -58,7 +58,7 @@ void Socket::setTcpNoDelay(bool on)
 
 void Socket::setReuseAddr(bool on)
 {
-    int optval = om ? 1 : 0;
+    int optval = on ? 1 : 0;
     ::setsockopt(sockfd_, SOL_SOCKET, SO_REUSEADDR, &optval, sizeof(optval));
 
 }

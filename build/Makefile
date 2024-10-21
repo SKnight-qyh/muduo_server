@@ -124,6 +124,21 @@ webserver/fast:
 .PHONY : webserver/fast
 
 # target to build an object file
+Acceptor.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Acceptor.o
+.PHONY : Acceptor.o
+
+# target to preprocess a source file
+Acceptor.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Acceptor.i
+.PHONY : Acceptor.i
+
+# target to generate assembly for a file
+Acceptor.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Acceptor.s
+.PHONY : Acceptor.s
+
+# target to build an object file
 Channel.o:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Channel.o
 .PHONY : Channel.o
@@ -229,19 +244,19 @@ EventLoopThreadPool.s:
 .PHONY : EventLoopThreadPool.s
 
 # target to build an object file
-InetAdress.o:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAdress.o
-.PHONY : InetAdress.o
+InetAddress.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAddress.o
+.PHONY : InetAddress.o
 
 # target to preprocess a source file
-InetAdress.i:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAdress.i
-.PHONY : InetAdress.i
+InetAddress.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAddress.i
+.PHONY : InetAddress.i
 
 # target to generate assembly for a file
-InetAdress.s:
-	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAdress.s
-.PHONY : InetAdress.s
+InetAddress.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/InetAddress.s
+.PHONY : InetAddress.s
 
 # target to build an object file
 Poller.o:
@@ -257,6 +272,21 @@ Poller.i:
 Poller.s:
 	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Poller.s
 .PHONY : Poller.s
+
+# target to build an object file
+Socket.o:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Socket.o
+.PHONY : Socket.o
+
+# target to preprocess a source file
+Socket.i:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Socket.i
+.PHONY : Socket.i
+
+# target to generate assembly for a file
+Socket.s:
+	$(MAKE) -f CMakeFiles/webserver.dir/build.make CMakeFiles/webserver.dir/Socket.s
+.PHONY : Socket.s
 
 # target to build an object file
 TcpServer.o:
@@ -327,6 +357,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... webserver"
+	@echo "... Acceptor.o"
+	@echo "... Acceptor.i"
+	@echo "... Acceptor.s"
 	@echo "... Channel.o"
 	@echo "... Channel.i"
 	@echo "... Channel.s"
@@ -348,12 +381,15 @@ help:
 	@echo "... EventLoopThreadPool.o"
 	@echo "... EventLoopThreadPool.i"
 	@echo "... EventLoopThreadPool.s"
-	@echo "... InetAdress.o"
-	@echo "... InetAdress.i"
-	@echo "... InetAdress.s"
+	@echo "... InetAddress.o"
+	@echo "... InetAddress.i"
+	@echo "... InetAddress.s"
 	@echo "... Poller.o"
 	@echo "... Poller.i"
 	@echo "... Poller.s"
+	@echo "... Socket.o"
+	@echo "... Socket.i"
+	@echo "... Socket.s"
 	@echo "... TcpServer.o"
 	@echo "... TcpServer.i"
 	@echo "... TcpServer.s"

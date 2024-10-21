@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/yuqiao/Desktop/d/muduo_server/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/Acceptor.o -c /home/yuqiao/Desktop/d/muduo_server/Acceptor.cc",
+  "file": "/home/yuqiao/Desktop/d/muduo_server/Acceptor.cc"
+},
+{
+  "directory": "/home/yuqiao/Desktop/d/muduo_server/build",
   "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/Channel.o -c /home/yuqiao/Desktop/d/muduo_server/Channel.cc",
   "file": "/home/yuqiao/Desktop/d/muduo_server/Channel.cc"
 },
@@ -36,13 +41,18 @@
 },
 {
   "directory": "/home/yuqiao/Desktop/d/muduo_server/build",
-  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/InetAdress.o -c /home/yuqiao/Desktop/d/muduo_server/InetAdress.cc",
-  "file": "/home/yuqiao/Desktop/d/muduo_server/InetAdress.cc"
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/InetAddress.o -c /home/yuqiao/Desktop/d/muduo_server/InetAddress.cc",
+  "file": "/home/yuqiao/Desktop/d/muduo_server/InetAddress.cc"
 },
 {
   "directory": "/home/yuqiao/Desktop/d/muduo_server/build",
   "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/Poller.o -c /home/yuqiao/Desktop/d/muduo_server/Poller.cc",
   "file": "/home/yuqiao/Desktop/d/muduo_server/Poller.cc"
+},
+{
+  "directory": "/home/yuqiao/Desktop/d/muduo_server/build",
+  "command": "/usr/bin/g++  -Dwebserver_EXPORTS   -g -std=c++11 -g -fPIC   -o CMakeFiles/webserver.dir/Socket.o -c /home/yuqiao/Desktop/d/muduo_server/Socket.cc",
+  "file": "/home/yuqiao/Desktop/d/muduo_server/Socket.cc"
 },
 {
   "directory": "/home/yuqiao/Desktop/d/muduo_server/build",
