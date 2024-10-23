@@ -1,5 +1,10 @@
 # Rewrite Muduo Library
 
+### TARGET OF REWRITE :
+
+- 完全依赖C++11标准库，舍弃对boost库的依赖，可移植性更强
+
+
 ```mermaid
 sequenceDiagram
 	title Reactor Model
