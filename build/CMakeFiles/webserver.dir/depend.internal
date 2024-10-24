@@ -10,6 +10,9 @@ CMakeFiles/webserver.dir/Acceptor.o
  /home/yuqiao/Desktop/d/muduo_server/Timestamp.h
  /home/yuqiao/Desktop/d/muduo_server/logger.h
  /home/yuqiao/Desktop/d/muduo_server/noncopyable.h
+CMakeFiles/webserver.dir/Buffer.o
+ /home/yuqiao/Desktop/d/muduo_server/Buffer.cc
+ /home/yuqiao/Desktop/d/muduo_server/Buffer.h
 CMakeFiles/webserver.dir/Channel.o
  /home/yuqiao/Desktop/d/muduo_server/Channel.cc
  /home/yuqiao/Desktop/d/muduo_server/Channel.h
@@ -77,9 +80,24 @@ CMakeFiles/webserver.dir/Socket.o
  /home/yuqiao/Desktop/d/muduo_server/Socket.h
  /home/yuqiao/Desktop/d/muduo_server/logger.h
  /home/yuqiao/Desktop/d/muduo_server/noncopyable.h
+CMakeFiles/webserver.dir/TcpConnection.o
+ /home/yuqiao/Desktop/d/muduo_server/TcpConnection.cc
 CMakeFiles/webserver.dir/TcpServer.o
+ /home/yuqiao/Desktop/d/muduo_server/Acceptor.h
+ /home/yuqiao/Desktop/d/muduo_server/Callbacks.h
+ /home/yuqiao/Desktop/d/muduo_server/Channel.h
+ /home/yuqiao/Desktop/d/muduo_server/CurrentThread.h
+ /home/yuqiao/Desktop/d/muduo_server/EventLoop.h
+ /home/yuqiao/Desktop/d/muduo_server/EventLoopThread.h
+ /home/yuqiao/Desktop/d/muduo_server/EventLoopThreadPool.h
+ /home/yuqiao/Desktop/d/muduo_server/InetAddress.h
+ /home/yuqiao/Desktop/d/muduo_server/Socket.h
  /home/yuqiao/Desktop/d/muduo_server/TcpServer.cc
  /home/yuqiao/Desktop/d/muduo_server/TcpServer.h
+ /home/yuqiao/Desktop/d/muduo_server/Thread.h
+ /home/yuqiao/Desktop/d/muduo_server/Timestamp.h
+ /home/yuqiao/Desktop/d/muduo_server/logger.h
+ /home/yuqiao/Desktop/d/muduo_server/noncopyable.h
 CMakeFiles/webserver.dir/Thread.o
  /home/yuqiao/Desktop/d/muduo_server/CurrentThread.h
  /home/yuqiao/Desktop/d/muduo_server/Thread.cc

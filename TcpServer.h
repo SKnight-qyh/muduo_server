@@ -27,6 +27,7 @@ public:
     
     TcpServer(EventLoop* EventLoop
             , const InetAddress& listenAddr
+            , const std::string& nameArg
             , Option option = kNoReusePort);
     ~TcpServer();
     void setThreadInitCallback(const ThreadInitCallback& cb)
@@ -35,7 +36,7 @@ public:
     // 设置subloop的个数
     void setThreadNum(int numThreads);
 
-    // 开启服务器监听
+    // 开启服务器监听, 之后就是loop.loop()开启事件循环
     void start();
 
     void setConnectionCallback(const ConnectionCallback& cb)
@@ -50,7 +51,7 @@ public:
 
 private:
     // not thread safe, but in loop
-    void newConnection(int sockfd, const InetAddress& peerAddr);
+    void newConnection(int connfd, const InetAddress& peerAddr);
     // thread safe
     void removeConnection(const TcpConnectionPtr& conn);
     // not thread safe, but in loop
