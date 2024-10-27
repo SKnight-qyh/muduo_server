@@ -80,7 +80,18 @@ CMakeFiles/webserver.dir/Socket.o: ../Socket.h
 CMakeFiles/webserver.dir/Socket.o: ../logger.h
 CMakeFiles/webserver.dir/Socket.o: ../noncopyable.h
 
+CMakeFiles/webserver.dir/TcpConnection.o: ../Buffer.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../Callbacks.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../Channel.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../CurrentThread.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../EventLoop.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../InetAddress.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../Socket.h
 CMakeFiles/webserver.dir/TcpConnection.o: ../TcpConnection.cc
+CMakeFiles/webserver.dir/TcpConnection.o: ../TcpConnection.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../Timestamp.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../logger.h
+CMakeFiles/webserver.dir/TcpConnection.o: ../noncopyable.h
 
 CMakeFiles/webserver.dir/TcpServer.o: ../Acceptor.h
 CMakeFiles/webserver.dir/TcpServer.o: ../Callbacks.h

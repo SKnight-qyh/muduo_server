@@ -59,7 +59,9 @@
         "cinttypes": "cpp",
         "typeindex": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "buffer": "cpp",
+        "netfwd": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "editor.fontSize": 19

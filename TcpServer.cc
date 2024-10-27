@@ -4,7 +4,7 @@
 
 #include <functional>
 
-EventLoop* checkLoopNotNull(EventLoop* loop)
+static EventLoop* checkLoopNotNull(EventLoop* loop)
 {
     if(!loop)
     {

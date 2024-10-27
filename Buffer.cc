@@ -2,6 +2,7 @@
 
 #include <errno.h>
 #include <sys/uio.h>
+#include <unistd.h>
 
 // read data from fd, Poller works in LT mode
 // buffer大小有限，但是从fd上读数据的时候，却不知道tcp数据最终的大小
@@ -15,7 +16,8 @@ ssize_t Buffer::readFd(int fd, int* savedErrno)
     vec[0].iov_len = writeable;
     vec[1].iov_base = extrabuf;
     vec[1].iov_len = sizeof extrabuf;
-
+    // 如果writeable >= 64k，则只定义一块内存空间
+    // 说明一次最多读取64k数据
     const int iovcnt = (writeable < sizeof extrabuf)? 2 : 1;
     const ssize_t n = ::readv(fd, vec, iovcnt);
     if( n < 0)
@@ -30,6 +32,16 @@ ssize_t Buffer::readFd(int fd, int* savedErrno)
     {
         writerIndex_ = buffer_.size();
         append(extrabuf, n - writeable);
+    }
+    return n;
+}
+ssize_t Buffer::writeFd(int fd, int* savedErrno)
+{
+    const size_t readable = readableBytes();
+    const ssize_t n = ::write(fd, peek(), readable);
+    if( n < 0)
+    {
+        *savedErrno = errno;
     }
     return n;
 }

@@ -4,7 +4,7 @@
 
 - 完全依赖C++11标准库，舍弃对boost库的依赖，可移植性更强
 
-  ![1729694778272](images/RewriteMuduoLibrary/1729694778272.png)
+  ![1729694778272](images/RewriteMuduoLibrary/1729694778272.png)![1729949961596](images/RewriteMuduoLibrary/1729949961596.png)
 
 ```mermaid
 sequenceDiagram
@@ -60,6 +60,9 @@ TcpServer::newConnection() 根据轮询算法选择一个subLoop，ioLoop = Thre
 
 channel update/remove ==> EventLoop updateChannel/removeChannel ==> Poller updateChannel/removeChannel
 
+Channel 的tie方法的作用
+channel 的回调都是绑定的是TcpConnection的成员方法，如果TcpConnection被remove掉，channel将会执行回调的结果显然是未知的，一个TCPConnection绑定一个channel，在一个新连接创建的时候调用tie方法，使得channel有一个weak_ptr指向对应的TcpConnection，防止TCPCOnnection被自动释放资源 
+
 ### Poller
 
 抽象类，不能实例化，不能拷贝构造
@@ -71,3 +74,11 @@ ChannelMap <fd, channel*>
 EventLoop 可以通过 Poller() 获取默认的IO复用的具体实现：poll 还是 epoll, 如果在Poller.cc中实现，需要引用 Poller 的派生类PollPoller 和 EpollPoler ，显然不合适的
 
 ### Buffer
+
+### Acceptor => mainLoop
+
+### TcpConnnection => subLoop
+
+已经建立连接的客户端与服务器的通信链路
+
+在sendInLoop()中如果没有把数据一次性的发送出去，那么剩余的数据保存在buffer中，然后注册epollout事件， Poller发现tcp的发送缓冲区有空间，会通知对应的channel， 调用TcpConnection::handleWrite()回调， 工作在LT模式，多次调用回调指导将发送缓冲区的的数据发送完毕

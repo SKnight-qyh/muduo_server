@@ -29,7 +29,9 @@ public:
         , writerIndex_(kCheapPrepend)
     {   
     }
-    ~Buffer();
+    ~Buffer()
+    {
+    }
 
     size_t readableBytes() const { return writerIndex_ - readerIndex_; }
     size_t writableBytes() const { return buffer_.size() - writerIndex_; }
@@ -114,7 +116,7 @@ public:
     }
     // read data directly into buffer
     ssize_t readFd(int fd, int* savefEeeno);
-
+    ssize_t writeFd(int fd, int* savedErrno);
 
 private:
 
