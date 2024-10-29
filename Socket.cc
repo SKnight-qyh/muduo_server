@@ -74,3 +74,15 @@ void Socket::setKeepAlive(bool on)
     int optval = on ? 1 : 0;
     ::setsockopt(sockfd_, SOL_SOCKET, SO_KEEPALIVE, &optval, sizeof(optval));
 }
+
+sockaddr_in Socket::getLocalAddr(int sockfd)
+{
+    sockaddr_in local;
+    bzero(&local, sizeof local);
+    socklen_t addrlen = sizeof local;
+    if(::getsockname(sockfd, (sockaddr*)&local, &addrlen) < 0)
+    {
+        LOG_ERROR("socket::getLocalAddr\n");
+    }
+    return local;
+}

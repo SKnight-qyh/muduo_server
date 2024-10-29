@@ -17,6 +17,7 @@ class TcpServer : noncopyable
 {
 public:
     using ThreadInitCallback = std::function<void(EventLoop*)>;
+    // key = connName, vale = TcpConnectionPtr
     using ConnectionMap = std::unordered_map<std::string, TcpConnectionPtr>;
     enum Option
     {

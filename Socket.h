@@ -1,7 +1,7 @@
 #pragma once
 
 #include "noncopyable.h"
-
+#include <netinet/in.h>
 
 class InetAddress;
 
@@ -27,7 +27,7 @@ public:
     void setReusePort(bool on);
 
     void setKeepAlive(bool on);
-
+    static sockaddr_in getLocalAddr(int sockfd);
 private:
     const int sockfd_;
 };

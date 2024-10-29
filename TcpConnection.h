@@ -28,7 +28,7 @@ public:
                  , const std::string& name
                  , int connfd
                  , const InetAddress& localAddr
-                 , const InetAddress& pthread_attr_getstackaddr);
+                 , const InetAddress& peerAddr);
     ~TcpConnection();
     EventLoop* getLoop() const { return loop_; }
     const std::string& name() const { return name_; }
