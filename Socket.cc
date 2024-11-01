@@ -17,7 +17,7 @@ Socket::~Socket()
 
 void Socket::bindAddress(const InetAddress& addr)
 {
-    if(0 != ::bind(sockfd_, (sockaddr*)addr.getSockAddr(), sizeof(sockaddr_in)));
+    if(0 != ::bind(sockfd_, (sockaddr*)addr.getSockAddr(), sizeof(sockaddr_in)))
     {
         LOG_FATAL("bind sockfd errno:%d\n", errno);
     }

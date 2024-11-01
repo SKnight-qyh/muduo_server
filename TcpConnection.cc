@@ -171,7 +171,7 @@ void TcpConnection::sendInLoop(const void* message, size_t len)
     if(!channel_->isWriting() && outputBuffer_.readableBytes() == 0)
     {
         // 直接向fd发，不经过buffer
-        nwrote = ::write(channel_->fd(), &message, len);
+        nwrote = ::write(channel_->fd(), message, len);
         if (nwrote >= 0)
         {
             remaining = len - nwrote;
@@ -227,7 +227,7 @@ void TcpConnection::shutdown()
 void TcpConnection::shutdownInLoop()
 {
     
-    if(channel_->isWriting()) // 说明outputBuffer的数据全部发送完成
+    if(!channel_->isWriting()) // 说明outputBuffer的数据全部发送完成
     {
         socket_->shutdownWrite();
     }

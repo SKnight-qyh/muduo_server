@@ -19,7 +19,7 @@ std::string InetAddress::toIp() const
 {
 
     char buf[64] = {0};
-    inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof buf);
+    ::inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof buf);
     return buf;
 
 }
@@ -27,10 +27,11 @@ std::string InetAddress::toIpPort() const
 {
     // ip:port
     char buf[64] = {0};
-    inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof buf);
+    ::inet_ntop(AF_INET, &addr_.sin_addr, buf, sizeof buf);
     size_t end = strlen(buf);
     uint16_t port = ntohs(addr_.sin_port);
     sprintf(buf + end, ":%u", port);
+    printf("ip:port:%s\n", buf);
     return buf;
 }
 uint16_t InetAddress::toPort() const
