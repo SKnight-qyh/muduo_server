@@ -1,1 +1,1 @@
-# a server based on muduo
+# a simple server based on muduo
